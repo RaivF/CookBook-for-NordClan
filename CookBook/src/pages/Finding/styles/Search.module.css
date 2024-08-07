@@ -1,0 +1,24 @@
+.searchInput {
+  margin-top: 30px;
+}
+
+.content {
+  color: var(--header-text-color);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.description {
+
+  font-size: 31px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}

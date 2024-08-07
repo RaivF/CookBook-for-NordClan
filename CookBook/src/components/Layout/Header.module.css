@@ -1,0 +1,127 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: var(--header-bg-color);
+  padding: 30px;
+  align-items: flex-start;
+  margin: 0 auto;
+  color: var(--header-text-color);
+}
+
+.buttons {
+  width: 80px;
+  height: 40px;
+  background-color: var(--button-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  font-size: 1.1.em;
+}
+
+.logout_container {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logout_container img {
+  width: 20px;
+  height: 20px;
+}
+
+.back_container {
+  border: none;
+}
+
+.back_min_buttons {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.logout_min_buttons {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+.back_min_container {
+  display: none;
+}
+
+.buttons:hover {
+  background-color: var(--button-hover-color);
+
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 992px) {
+
+  .logout_container {
+    display: none;
+  }
+
+  .back_container {
+    display: none;
+  }
+
+  .logout_min_buttons {
+
+    display: flex;
+  }
+
+  .back_min_container {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 860px) {
+  .header {
+
+    height: 100%;
+
+  }
+}
+
+@media (max-width: 760px) {
+  .header {
+
+    height: 100%;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+
+    height: 100%;
+
+  }
+
+  .logout_container {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .logout_min_buttons {
+
+    display: flex;
+    width: 0px;
+    height: 0px;
+  }
+
+  .back_min_buttons {
+    width: 0px;
+    height: 0px;
+  }
+}
